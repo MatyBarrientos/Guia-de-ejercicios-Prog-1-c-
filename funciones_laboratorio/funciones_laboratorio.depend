@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1715953054 source:d:\estudios\utn\prog 1\workspace\funciones_laboratorio\funciones.cpp
+	<iostream>
+	<locale>
+
+1715954616 source:d:\estudios\utn\prog 1\workspace\funciones_laboratorio\main.cpp
+	<iostream>
+	"funciones.h"
+
+1715954073 source:d:\estudios\utn\prog 1\workspace\funciones_laboratorio\ejercicio_2.cpp
+	<iostream>
+	<locale>
+
+1715954619 d:\estudios\utn\prog 1\workspace\funciones_laboratorio\funciones.h
+
