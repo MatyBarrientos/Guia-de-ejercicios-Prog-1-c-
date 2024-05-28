@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL,"");
-    const int TAM=3;
+    const int TAM=5;
     int vectorEnteros[TAM];
     int pos;
     cargarVector(TAM, vectorEnteros);
