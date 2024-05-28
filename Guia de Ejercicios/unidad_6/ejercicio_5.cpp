@@ -18,6 +18,7 @@ int main() {
 }
 
 int redondearFloat(float num) {
+<<<<<<< HEAD
     int numAux=num;
 
     if(num-numAux>=0.5) {
@@ -25,3 +26,9 @@ int redondearFloat(float num) {
     } else {
         return numAux;
 }}
+=======
+    int numAux;
+    numAux = num;
+
+    return(num-numAux>=0.5)?(numAux+1):numAux;}
+>>>>>>> notebook
