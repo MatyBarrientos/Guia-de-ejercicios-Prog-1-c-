@@ -8,11 +8,12 @@ void  cargarVector(int TAM, int vec[]);
 void  mostrarVector(int TAM, int vec[]);
 int sumatoriaVector(int TAM, int vec[]);
 int promVector(int TAM, int vec[]);
+int posicionMayor(int TAM, int vec[]);
 
 
 void  cargarVector(int TAM, int vec[]) {
     for (int i=0; i<TAM; i++) {
-        cout<<"Ingrese el valor: "<<i+1<<" de la lista: ";
+        cout<<"Ingrese el valor "<<i+1<<" de la lista: ";
         cin>>vec[i];
     }
 }
@@ -39,6 +40,15 @@ int promVector(int TAM, int vec[]) {
     }
     promedio=aux/TAM;
     return promedio;
+}
+int posicionMayor(int TAM, int vec[]) {
+    int  indice=0;
+    for (int i=1; i<TAM; i++) {
+        if(vec[i]>vec[indice]) {
+            indice=i;
+        }
+    }
+    return indice+1;
 }
 
 #endif // FUNCIONES_H_INCLUDED
