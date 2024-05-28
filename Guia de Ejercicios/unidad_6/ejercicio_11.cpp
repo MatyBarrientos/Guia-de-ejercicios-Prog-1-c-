@@ -16,11 +16,19 @@ int main() {
     cantidad= contarDigitos(num);
     cout<<"La cantidad de dígitos del número: "<<num<<" es de: "<<cantidad;
 
-
     return 0;
 }
+
+
 int contarDigitos(int num) {
-    int contador = 0;
+/**
+  * This is a documentation comment block
+  * @brief recibe un número y devuelve la cantidad de cifras
+  * @param  num es el numero a ingresar
+  * @return contador es la cantidad de digitos del número recibido
+  * @authr  Barry
+  */
+  int contador = 0;
     if (num == 0) {
         return 1;
     }
