@@ -1,11 +1,17 @@
 #include <iostream>
-#include <cmath>
-using namespace std;
+#include <locale>
 
-bool esNumeroArmstrong(int num);
+
+int devolverAbsoluto(int valor);
+float potencia(int a, int b);
+float calcularPotencia(int a, int b);
 int contarDigitos(int num);
+bool esNumeroArmstrong(int num);
 
+
+using namespace std;
 int main() {
+    setlocale(LC_ALL,"");
     int numero;
     cout << "Ingrese un número: ";
     cin >> numero;
@@ -18,6 +24,33 @@ int main() {
 
     return 0;
 }
+int devolverAbsoluto(int valor) {
+    return valor<0 ? -valor : valor;//funcion del ej8 para obtener abs
+}
+
+float potencia(int a, int b) {
+    float i,valor=a;
+    for(i=1; i<devolverAbsoluto(b); i++) { //uso la funcion de abs para contemplar los exponentes negativos
+        valor*=a;
+    }
+    return valor;
+}
+
+
+float calcularPotencia(int a, int b) {
+    float retorno;
+    if (b==0)
+        retorno=1;
+    else if(b==1)
+        retorno=a;
+    else if(b<0)
+        retorno=(1/potencia(a,b)); //contemplo los exponentes negativos
+    else
+        retorno=potencia(a,b);
+
+    return retorno;
+}
+
 int contarDigitos(int num) {
 
     int contador = 0;
@@ -35,7 +68,7 @@ int calcular(int num, int numCifras) {
     temp = num;
     while (temp > 0) {
         int cifra = temp % 10;
-        suma += pow(cifra, numCifras);
+        suma += calcularPotencia(cifra, numCifras);
         temp /= 10;
     }
     return suma;
