@@ -9,6 +9,7 @@ void  mostrarVector(int TAM, int vec[]);
 int sumatoriaVector(int TAM, int vec[]);
 int promVector(int TAM, int vec[]);
 int posicionMayor(int TAM, int vec[]);
+int devolverAbsoluto(int valor);
 
 
 void  cargarVector(int TAM, int vec[]) {
@@ -50,5 +51,10 @@ int posicionMayor(int TAM, int vec[]) {
     }
     return indice+1;
 }
+int devolverAbsoluto(int valor) {
+    return valor<0 ? -valor : valor;//ternario si es negativo lo multiplico *1;
+}
+
+
 
 #endif // FUNCIONES_H_INCLUDED

@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac05753a-455c-4115-ad24-9bb4f2052187" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_2.o" beforeDir="false" afterPath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_2.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/ejercicio_4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/funciones_guia7/funciones.h" beforeDir="false" afterPath="$PROJECT_DIR$/Guia de Ejercicios/unidad_7/funciones_guia7/funciones.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
   "keyToString": {
     "C/C++ File.ejercicio_1.cpp.executor": "Profiler",
     "C/C++ File.ejercicio_3.cpp.executor": "Run",
+    "C/C++ File.ejercicio_4.cpp (1).executor": "Debug",
     "C/C++ File.ejercicio_4.cpp.executor": "Run",
     "C/C++ File.ejercicio_5.cpp.executor": "Debug",
     "C/C++ File.ejercicio_8.cpp.executor": "Run",
@@ -59,11 +60,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.ejercicio_3.cpp">
+  <component name="RunManager" selected="C/C++ File.ejercicio_4.cpp (1)">
     <configuration name="ejercicio_1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="workspace" TARGET_NAME="ejercicio_1.cpp" CONFIG_NAME="ejercicio_1.cpp">
       <option name="sourceFile" value="Guia de Ejercicios\unidad_1\ejercicio_1.cpp" />
       <method v="2">
@@ -72,6 +73,12 @@
     </configuration>
     <configuration name="ejercicio_3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="workspace" TARGET_NAME="ejercicio_3.cpp" CONFIG_NAME="ejercicio_3.cpp">
       <option name="sourceFile" value="Guia de Ejercicios\unidad_7\ejercicio_3.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejercicio_4.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="workspace" TARGET_NAME="ejercicio_4.cpp" CONFIG_NAME="ejercicio_4.cpp">
+      <option name="sourceFile" value="Guia de Ejercicios\unidad_7\ejercicio_4.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.ejercicio_4.cpp (1)" />
         <item itemvalue="C/C++ File.ejercicio_3.cpp" />
         <item itemvalue="C/C++ File.ejercicio_8.cpp" />
         <item itemvalue="C/C++ File.ejercicio_5.cpp" />
@@ -119,6 +127,8 @@
       <workItem from="1716492693131" duration="4200000" />
       <workItem from="1716584410049" duration="2596000" />
       <workItem from="1716938070538" duration="382000" />
+      <workItem from="1717021693124" duration="555000" />
+      <workItem from="1717022280032" duration="220000" />
     </task>
     <servers />
   </component>
