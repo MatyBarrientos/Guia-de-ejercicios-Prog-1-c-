@@ -15,7 +15,7 @@ int main()
     cout<<"El promedio de la lista es de: "<<resultado<<endl;
     for (int i=0;i<TAM;i++){
         if(vectorEnteros[i]>resultado){
-            cout<<vectorEnteros[i]<<" es mayor que el promedio.";
+            cout<<vectorEnteros[i]<<" es mayor que el promedio."<<endl;
         }
     }
 
